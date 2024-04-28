@@ -60,6 +60,6 @@ To run the Notable application locally, follow these steps:
 
 ## Contributors
 
-- Your Name
+- Aaby Abhay🍻
 
 Feel free to contribute to this project by submitting pull requests or reporting issues on GitHub. Thank you for using Notable!
