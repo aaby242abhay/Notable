@@ -40,9 +40,20 @@ PostgreSQL is used as the database backend for Notable. Proper database migratio
 
 The React frontend communicates with the Django backend via HTTP requests to the defined API endpoints. Axios or fetch is used to make these requests from the React components to the Django API.
 
-## Additional Features
+## Environment Variables
 
-Basic form validation is implemented both on the frontend and backend to ensure data integrity. For example, required fields are validated to prevent submission of incomplete data.
+This project uses environment variables for configuration. To set these variables:
+
+1. Copy the `.env.example` file to a new file named `.env` in the root directory of your project:
+
+```bash
+cp .env.example .env
+
+PGHOST='your-host'
+PGDATABASE='your-database'
+PGUSER='your-username'
+PGPASSWORD='your-password'
+PGPORT=your-port
 
 ## Getting Started
 
