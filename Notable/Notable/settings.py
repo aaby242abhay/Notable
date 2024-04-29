@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'client/build'],
+            BASE_DIR / 'client/build/index.html'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
