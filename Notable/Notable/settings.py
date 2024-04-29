@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api.apps.ApiConfig',
     'rest_framework',
-    'corsheaders'
+    'corsheaders',
+    'api'
 ]
 
 MIDDLEWARE = [
@@ -60,7 +61,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'client/build/index.html'],
+            BASE_DIR / 'client/build/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
